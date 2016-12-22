@@ -1,0 +1,8 @@
+-z -c -m"./Debug/karaoke.map" -o"./Debug/karaoke.out" -w -x -i"C:/Users/Admin/Documents/DSP/CCS3.1/C6000/rtdx/lib" -i"C:/Users/Admin/Documents/DSP/CCS3.1/C6000/csl/lib" -i"C:/Users/Admin/Documents/DSP/CCS3.1/C6000/xdais/lib" -i"C:/Users/Admin/Documents/DSP/CCS3.1/C6000/bios/lib" -i"C:/Users/Admin/Documents/DSP/CCS3.1/C6000/cgtools/lib"
+"C:\Users\Admin\Desktop\karaoke\Configuration1cfg.cmd"
+"C:\Users\Admin\Desktop\karaoke\Debug\Configuration1cfg.obj"
+"C:\Users\Admin\Desktop\karaoke\Debug\Configuration1cfg_c.obj"
+"C:\Users\Admin\Desktop\karaoke\Debug\fir.obj"
+"D:\DSP\C6713 Necessary files\csl6713.lib"
+"D:\DSP\C6713 Necessary files\dsk6713bsl.lib"
+"D:\DSP\C6713 Necessary files\rts6700.lib"

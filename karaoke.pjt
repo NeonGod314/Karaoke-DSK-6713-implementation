@@ -1,0 +1,43 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="C:\Users\Admin\Desktop\karaoke\"
+ProjectType=Executable
+CPUFamily=TMS320C62XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="Configuration1.cdb"
+Source="D:\DSP\C6713 Necessary files\csl6713.lib"
+Source="D:\DSP\C6713 Necessary files\dsk6713bsl.lib"
+Source="D:\DSP\C6713 Necessary files\rts6700.lib"
+Source="fir.c"
+
+[Generated Files]
+Source="Configuration1cfg.cmd"
+Source="Configuration1cfg.s62"
+Source="Configuration1cfg_c.c"
+
+["Compiler" Settings: "Debug"]
+Options=-g -fr"$(Proj_dir)\Debug" -d"_DEBUG"
+
+["Compiler" Settings: "Release"]
+Options=-o3 -fr"$(Proj_dir)\Release"
+
+["Linker" Settings: "Debug"]
+Options=-c -m".\Debug\karaoke.map" -o".\Debug\karaoke.out" -w -x
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\karaoke.map" -o".\Release\karaoke.out" -w -x
+
+["Configuration1cfg.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["Configuration1cfg.cmd" Settings: "Release"]
+LinkOrder=1
+
